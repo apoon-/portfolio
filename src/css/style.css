@@ -25,7 +25,7 @@ html,body{
 	font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .navigation li{
@@ -37,10 +37,10 @@ html,body{
 	-webkit-transition: all .2s ease-in-out;
 	border-bottom:1px solid white;
 	text-align:left;
-	width:53px;
+	width: 53px;
 }
 .navigation li:hover,.active{
-	font-size:1.8em;
+	font-size:1.5em;
 	cursor:pointer;
 	width:100px!important;
 	font-weight: 300;
@@ -257,5 +257,11 @@ html,body{
 	color:rgba(51,51,51,0.3);
 	color: white;
 	opacity: 0.6;
+}
+
+#canvas{
+	position: absolute;
+	left: 35%;
+	top: 15%;
 }
 
