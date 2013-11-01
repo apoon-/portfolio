@@ -77,10 +77,11 @@ html,body{
 	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
 }
 .wrapper{
-	width: 100%;
+	width: 80%;
 	height: 100%;
-	margin:0 auto;
-	position:relative;
+	margin:0 0 0 -50%;
+	position: absolute;
+	left: 50%;
 }
 .slidetitle{
 	position:absolute;
@@ -119,6 +120,10 @@ html,body{
 
 #slide1{
 	background-image:url(../images/fog_toronto_small.jpg);	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 /* SLIDE 2 - Social */
@@ -181,6 +186,10 @@ html,body{
 
 #slide3{
 	background-image:url(../images/slide3/mcmasterbg_small.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #slide3 img:first-child{
@@ -227,9 +236,9 @@ html,body{
 	z-index: 0;
 	background-image:url(../images/slide3/contentbg.png);
 	color: white;
-	width: 19%;
+	width: 25%;
 	height: 67%;
-	left: 50%;
+	left: 60%;
 	top: 7%;
 	padding: 25px;
 	font-weight: 100;
